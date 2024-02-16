@@ -1,6 +1,7 @@
 This is a simple website that allows users to publish their book reviews
 
 Django as a backend and React.js as a frontend
+
 MUI was used to create some UI
 
 Project is not finished graphically
