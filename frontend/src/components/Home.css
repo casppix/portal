@@ -1,0 +1,48 @@
+.layout {
+    margin-top: 0.6rem;
+}
+
+.home-container {
+    display: flex;
+    max-width: 120rem;
+    width: 80%;
+    margin: auto;
+    gap: 50px;
+}
+
+.sidebar-left {
+    width: 25%;
+    min-width: 200px;
+}
+
+.main-content {
+    width: 50%;
+    min-width: 600px;
+}
+
+.user-content{
+    width: 50%;
+    min-width: 600px;
+    margin: 0 auto;
+}
+
+.sidebar-right {
+    width: 25%;
+    min-width: 200px;
+}
+
+.button {
+    background-color: #4760FF;
+    color: white;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.15);
+    font-weight: 500;
+    text-decoration: none;
+}

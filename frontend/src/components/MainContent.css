@@ -1,0 +1,64 @@
+.reviewHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.reviewBody {
+    margin-bottom: 2.0rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+}
+
+/* ############################################## */
+/* above are main page components                 */
+/* below are elements from inside the reviewBody  */
+/* ############################################## */
+
+.reviewListMeta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reviewListGenre {
+    padding: 5px 1.5rem;
+    border-radius: 5rem;
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.reviewListHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reviewListContent {
+    margin: 0;
+    font-weight: 500;
+}
+
+p {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.reviewComment {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.reviewAuthor {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 1rem;
+    font-weight: 500;
+}

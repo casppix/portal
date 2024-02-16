@@ -1,0 +1,37 @@
+.header {
+    padding: 0.6rem;
+    background-color: #3F4156;
+}
+
+.header-logo {
+    width: 25%;
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.header-search{
+    background-color: #3F4156;
+    padding: 1.3rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 4px;
+    width: 50%;
+}
+
+.header-menu {
+    margin-left: auto;
+    width: 25%;
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
