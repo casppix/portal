@@ -4,7 +4,7 @@ Django as a backend and React.js as a frontend
 
 For all the communication between Django and React, Django REST Framework is used
 
-MUI was used to create some UI
+MUI is used to create some UI
 
 Project is not finished graphically
 
