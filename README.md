@@ -13,9 +13,10 @@ Django admin credentials: type 'admin@gmail.com' [Email field] and 'password' [P
 Main features:
 - JWT token-based authorization
 - during registration user is asked to enter a password of at least 8 characters with one special character
-- email is being used instead of username
-- only logged users can add reviews and comments
-- user can delete his reviews
+- email is used instead of username
+- only logged in users can add reviews and comments
+- logged in user can see all his reviews
+- logged in user can delete his reviews
 - search bar in header performs "live search"
 - left sidebar allows to search by genre of a book
 - react-toastify notifications
